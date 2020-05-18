@@ -1,7 +1,7 @@
 package com.xiaohe.dao;
 
 import com.xiaohe.domain.Account;
-
+//接口
 public interface Dao {
 
     /**

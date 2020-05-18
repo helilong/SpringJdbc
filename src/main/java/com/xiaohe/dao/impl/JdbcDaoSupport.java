@@ -4,7 +4,11 @@ import org.springframework.jdbc.core.JdbcTemplate;
 
 import javax.sql.DataSource;
 
-
+/**
+ * 父类
+ *
+ * 为子类 DaoImpl  提供接口
+ */
 public class JdbcDaoSupport {
 
     private JdbcTemplate jdbcTemplate;

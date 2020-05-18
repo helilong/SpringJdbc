@@ -1,5 +1,8 @@
 package com.xiaohe.domain;
 
+/**
+ * 实体类
+ */
 public class Account {
     private  Integer id;
     private  String name;

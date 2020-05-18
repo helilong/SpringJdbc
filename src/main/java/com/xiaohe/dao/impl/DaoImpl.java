@@ -10,6 +10,11 @@ import org.springframework.stereotype.Repository;
 import javax.annotation.Resource;
 import java.util.List;
 
+/**
+ * 接口的实现类
+ *
+ * 子类  继承父类  （JdbcSupport）
+ */
 public class DaoImpl extends JdbcDaoSupport implements Dao{
 
     public Account findAccountById(Integer accountId) {
