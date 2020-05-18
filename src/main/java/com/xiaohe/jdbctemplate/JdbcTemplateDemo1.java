@@ -19,6 +19,6 @@ public class JdbcTemplateDemo1 {
 
         jdbcTemplate.setDataSource(driverManagerDataSource);
         //2 执行操作
-        jdbcTemplate.execute("insert into account(name,money)values('cccc',100);");
+        jdbcTemplate.execute("insert into account(name,money)values('cccc1',100);");
     }
 }
